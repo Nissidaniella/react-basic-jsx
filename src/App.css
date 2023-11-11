@@ -217,7 +217,7 @@
  font-size: 35px;
  margin-top: 10px;
  align-items: center;
- 
+ color: white;
  
 }
 
@@ -303,22 +303,22 @@
 }
 
 .card .social-link1:hover {
-  background-color: #040072;
+  background-color: #fa0000;
   animation: bounce_613 0.4s linear;
 }
 
 .card .social-link2:hover {
-  background-color: #3391ef;
+  background-color: #00ff11;
   animation: bounce_613 0.4s linear;
 }
 
 .card .social-link3:hover {
-  background-color: #18438e;
+  background-color: #ffb700;
   animation: bounce_613 0.4s linear;
 }
 
 .card .social-link4:hover {
-  background-color: #2250b5;
+  background-color: #f80777;
   animation: bounce_613 0.4s linear;
 }
 
@@ -430,12 +430,12 @@ button:hover .play {
 
 .loader span:nth-child(1) {
   color: transparent;
-  -webkit-text-stroke: 0.3px rgb(0, 0, 0);
+  -webkit-text-stroke: 0.3px rgb(255, 251, 251);
 }
 
 .loader span:nth-child(2) {
-  color: rgb(252, 253, 255);
-  -webkit-text-stroke: 1px rgb(17, 0, 255);
+  color: rgb(171, 201, 252);
+  -webkit-text-stroke: 1px rgb(31, 15, 249);
   animation: AppStore723 3s ease-in-out infinite;
 }
 
@@ -543,6 +543,7 @@ button:hover .play {
   border-top-right-radius: 80px;
   border-top-left-radius: 80px;
   padding: 20px 110px;
+  color: #fffefe;
 
 }
 
